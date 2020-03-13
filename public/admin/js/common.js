@@ -34,8 +34,7 @@ $(function () {
         // console.log(1);
 
         $('.aside').toggleClass('t_left');
-        $('body').toggleClass('pl_180');
-        $('.lt-header').toggleClass('pl_180');
+        $('.lt-header,.lt-main').toggleClass('pl_180');
     })
 
     //点击退出按钮返回登录界面
